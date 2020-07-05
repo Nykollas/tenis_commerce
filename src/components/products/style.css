@@ -1,0 +1,38 @@
+.products{
+    margin-left:25px;
+    margin-right:25px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 72px;
+    padding-left:12px
+}
+.products__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: -12px;
+    
+}
+.products__categorie-label{
+    margin:0px;
+    font-family: "Euclid Flex Trial";
+    font-weight: bold;
+    color:var(--title-color)
+    
+}
+.products__more-button{
+    margin:0px;
+    font-family: "Euclid Flex Trial";
+    color:#64ECC7;
+    font-weight: bold;
+}
+.products__list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+    position: relative;
+    cursor:pointer
+    
+}

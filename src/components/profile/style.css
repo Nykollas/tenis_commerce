@@ -1,0 +1,7 @@
+.profile{
+    height:64px;
+    width: 64px;
+    background-color: gray;
+    border-radius:36px;
+    box-shadow: 1px 1px 10px #CCCCCC ;
+}

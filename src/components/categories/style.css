@@ -1,0 +1,59 @@
+.categories{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left:25px;
+    padding-left:6px;
+    margin-right:25px;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+}
+.categories::-webkit-scrollbar {
+    display: none;
+  } 
+.category{
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 36px;
+    cursor: pointer;
+    height:120px;
+    width: 120px;
+}
+.category__container{
+    height:56px;
+    width: 56px;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 10px #cccccc;
+    margin-bottom:12px;
+    transition: height 0.3s, width 0.3s;  
+    background-color: white;
+}
+.category__container--selected{
+    height:80px;
+    width: 80px;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 10px #cccccc;
+    margin-bottom:12px; 
+    transition: height 0.3s, width 0.3s;
+    background-color: var(--primary-color);
+}
+.category__icon{
+    object-fit: contain;
+}
+.category__label{
+    color:var(--category-label);
+    font-family:'Euclid Flex Trial'
+}

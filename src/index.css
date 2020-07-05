@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +9,73 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-primary);
+  scrollbar-width: none;
+  overflow-x: hidden;
+  padding-bottom: 80px;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header{
+  padding-left:25px;
+  padding-right: 25px;
+  padding-top:8px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__title{
+  font-size: 36px;
+  font-family: StolzlDisplay;
+  margin:0px;
+}
+
+
+@import url(//db.onlinewebfonts.com/c/136438630f56f129f62eeaaae5c0354e?family=Euclid+Flex+Trial);
+
+@font-face {
+    font-family: StolzlDisplay;
+    src: url("./assets/fonts/Stolzl_Display.otf") format("opentype")
+} 
+@font-face {
+  font-family: StolzlBold;
+  src: url("./assets/fonts/Stolzl_Display_Bold.otf") format("opentype")
+}
+@font-face {
+  font-family: StolzlLight;
+  src: url("./assets/fonts/Stolzl_Display_Light.otf") format("opentype")
+} 
+@font-face {
+  font-family: StolzlMedium;
+  src: url("./assets/fonts/Stolzl_Display_Medium.otf") format("opentype")
+} 
+@font-face {
+  font-family: StolzlNormal;
+  src: url("./assets/fonts/Stolzl_Display_Normal.otf") format("opentype")
+} 
+@font-face {
+  font-family: StolzlThin;
+  src: url("./assets/fonts/Stolzl_Display_Thin.otf") format("opentype")
+} 
+
+
+:root{
+  --category-label:#000;
+  --font-color:#000000AA;
+  --title-color:#161616;
+  --primary-color:#64ECC7;
+  --secondary-color:#FF8282;
+  --bg-primary:#F0F0F0;
+  --green-gradient:linear-gradient(-65deg,#64ECC7,#79E5C9);
+  --purple-gradient:linear-gradient(-65deg,#985AFF,#853CFF);
+  --red-gradient:linear-gradient(-65deg,#FF8282,#FE6563);
+  --blue-gradient:linear-gradient(-65deg, #64ABEC, #3BA1FE);
 }

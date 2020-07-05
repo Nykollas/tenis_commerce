@@ -1,0 +1,45 @@
+.sex{
+    display: flex;
+    flex-direction: row;
+    height:49px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    margin:24px 64px;
+    border-radius: 36px;
+    box-shadow: 1px 1px 15px #dddddd;
+
+    
+}
+.sex__input{
+    border-radius: 36px;
+    width: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:12px 12px;
+    background-color: white;
+}
+.sex__input--selected{
+    border-radius: 36px;
+    width: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:12px 32px;
+    background-color: var(--primary-color   );
+    box-shadow: 1px 1px 15px #dddddd;
+}
+.sex__label{
+    font-size: 20px;
+    font-family: "Euclid Flex Trial";
+    color:var(--title-color);
+    margin: 0px;
+    padding:0px;
+}
+.sex__label--selected{
+    font-size: 20px;
+    font-family: "Euclid Flex Trial";
+    color:white;
+    
+}
