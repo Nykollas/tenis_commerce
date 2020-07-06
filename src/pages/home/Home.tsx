@@ -31,20 +31,20 @@ const Home: React.FC<IHomeProps> = ({ }) => {
             </div>
             <Categories categoriesData={data.categories}></Categories>
             <Sex></Sex>
-            <Products bgColors = {["var(--green-gradient)", "var(--red-gradient"]}
-                      productImages = {[
-                                        require("../../assets/images/products/adidas.png"),
-                                        require("../../assets/images/products/nike.png")
-                                     ]}
-                      productTitles={["Urban Nike", "Reebok Red Run"]}
-                      categorie = {"Sports"}></Products>
-            <Products bgColors = {["var(--blue-gradient)", "var(--purple-gradient"]}
-                      productImages = {[
-                                            require("../../assets/images/products/boot.png"),
-                                            require("../../assets/images/products/casual.png")
-                                      ]}
-                      productTitles={["Casual", "Casual 2"]}
-                      categorie = {"Sports"}></Products>
+            <Products bgColors={["var(--green-gradient)", "var(--red-gradient"]}
+                productImages={[
+                    require("../../assets/images/products/adidas.png"),
+                    require("../../assets/images/products/nike.png")
+                ]}
+                productTitles={["Urban Nike", "Reebok Red Run"]}
+                categorie={"Sports"}></Products>
+            <Products bgColors={["var(--blue-gradient)", "var(--purple-gradient"]}
+                productImages={[
+                    require("../../assets/images/products/boot.png"),
+                    require("../../assets/images/products/casual.png")
+                ]}
+                productTitles={["Casual", "Casual 2"]}
+                categorie={"Sports"}></Products>
             <TabBottomMenu></TabBottomMenu>
         </div>
     );

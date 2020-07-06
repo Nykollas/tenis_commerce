@@ -77,6 +77,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+    margin-left:24px;
+    margin-right: 24px;
 }
 .details__more{
     margin:0px;
@@ -88,12 +90,15 @@
 .details__size-header{
     display: flex;
     flex-direction: row;
+    margin-left:24px;
+    margin-right: 24px;
 }
 
 .details__size-header{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 .size__countrys{
     display: flex;
@@ -119,6 +124,8 @@
     height:56px;
     justify-content: space-between;
     align-items: center;
+    margin-left:24px;
+    margin-right: 24px;
 
 }
 .size__value{
@@ -156,7 +163,6 @@
     margin-top: auto;
 }
 .addtocart__button{
-    
     height:45px;
     width: 60%;
     border:none;
@@ -170,4 +176,11 @@
 }
 .addtocart__button:active{
     top:2px;
+}
+.details__back-button{
+    position: absolute;
+    top:4px;
+    left:12px;
+    cursor: pointer;
+    z-index: 2;
 }
