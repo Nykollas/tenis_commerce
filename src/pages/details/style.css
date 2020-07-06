@@ -1,0 +1,173 @@
+.details__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.details__product{
+    height:240px;
+    
+    width: 100%;
+}
+.retangle{
+    height:inherit;
+    width: 56%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background: var(--red-gradient);
+    margin-left: auto;
+
+}
+.details__image{
+    height:360px;
+    position:absolute;
+    top:-60px;
+    bottom:0px;
+}
+.details__title{
+    color: var(--title-color);
+    font-family: StolzlMedium;
+    font-size:24px;
+    margin:0px;
+}
+
+.details__header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+.details__price{
+    color: var(--red);
+    font-family: StolzlDisplay;
+    font-size:24px;
+    margin:0px;
+}
+.details__body{
+    margin-right:24px;
+    margin-left:24px;
+}
+.details__classification{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+.details__stars{
+    margin-right: 24px;
+    width: 84px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.details__classifications-number{
+    margin:0px;
+    font-size: 14px;
+    font-family: StolzlDisplay;
+}
+.details__description{
+    font-family: "Euclid Flex Trial";
+    font-size:14px;
+    text-align: justify;
+    color:var(--font-color)
+}
+.details__more-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.details__more{
+    margin:0px;
+    font-family: "Euclid Flex Trial";
+    font-weight: 900;
+    font-size: 14px;
+    color:var(--primary-color)
+}
+.details__size-header{
+    display: flex;
+    flex-direction: row;
+}
+
+.details__size-header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.size__countrys{
+    display: flex;
+    flex-direction: row;
+    list-style-type:none;
+}
+.size__title{
+    font-family: "Euclid Flex Trial";
+    font-size: 15px;
+}
+.size__country{
+    height:24px;
+    margin-right: 12px; 
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: "Euclid Flex Trial";
+    color:var(--font-color);
+    font-size: 13px;
+}
+.size__values{
+    display: flex;
+    flex-direction: row;
+    height:56px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.size__value{
+    height:35px;
+    width: 52px;
+    font-size: 16px;
+    font-family:StolzlDisplay;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer
+}
+.size__value--selected{
+    height:35px;
+    width: 52px;
+    font-size: 16px;
+    font-family:StolzlDisplay;
+    background-color: var(--primary-color);
+    color:#fff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.addtocart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height:72px;
+    margin-top: auto;
+}
+.addtocart__button{
+    
+    height:45px;
+    width: 60%;
+    border:none;
+    background-color:var(--primary-color);
+    border-radius:12px;
+    padding:12px;
+    color:white;
+    font-family: "Euclid Flex Trial";
+    cursor:pointer;
+    position:relative
+}
+.addtocart__button:active{
+    top:2px;
+}

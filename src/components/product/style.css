@@ -21,7 +21,6 @@
     bottom:52px;
     display: block;
 }
-
 .product__card{
     height:236px;
     max-height:236px;
@@ -30,7 +29,6 @@
     left:24px;
     overflow: hidden;    
 }
-
 .product__viewbutton{
 
 }
@@ -62,5 +60,4 @@
 .classification__star{
     height:18px;
     width:14px;
-    
 }

@@ -122,12 +122,14 @@ const Products: React.FC<IProductsProps> = ({ categorie, bgColors, productImages
                 onMouseMove={onMouseMove}
                 className={"products__list"}>
                 <Product background={bgColors[0]}
-                    productImage={productImages[0]}
-                    productTitle={productTitles[0]}
+                         productPrice={72}
+                         productImage={productImages[0]}
+                         productTitle={productTitles[0]}
                 ></Product>
                 <Product background={bgColors[1]}
-                    productImage={productImages[1]}
-                    productTitle={productTitles[1]}
+                         productPrice={120}
+                         productImage={productImages[1]}
+                         productTitle={productTitles[1]}
 
                 ></Product>
             </div>

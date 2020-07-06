@@ -1,13 +1,15 @@
 import React from 'react';
 
 export interface IButtonProps {
-    
+    label:string
 }
 
-const Button: React.FC<IButtonProps> = ({ }) => {
+const Button: React.FC<IButtonProps> = ({label }) => {
     return (
-        <div>
-            
+        <div className={"addtocart"}>
+            <button className={"addtocart__button"}>
+                {label}
+            </button>
         </div>
     );
 }
