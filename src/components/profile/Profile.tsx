@@ -8,7 +8,7 @@ export interface IProfileProps {
 const Profile: React.FC<IProfileProps> = ({imgSrc }) => {
     return (
         <div className={'profile'}>
-            <img src={imgSrc}></img>
+            <img className={"profile__image"} src={imgSrc}></img>
         </div>
     );
 }

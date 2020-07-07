@@ -14,7 +14,6 @@ function App() {
 
     <Router >
       <Switch>
-
         <Route path="/details">
             <Details></Details>
         </Route>

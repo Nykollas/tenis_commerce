@@ -27,7 +27,7 @@ const Home: React.FC<IHomeProps> = ({ }) => {
         <div>
             <div className={"header"}>
                 <p className={"header__title"}>Explore</p>
-                <Profile imgSrc={""}></Profile>
+                <Profile imgSrc={require("../../assets/images/user/avatar.png")}></Profile>
             </div>
             <Categories categoriesData={data.categories}></Categories>
             <Sex></Sex>
