@@ -30,7 +30,8 @@
     overflow: hidden;    
 }
 .product__price{
-    font-family:StolzlBold;
+    font-family:"Roboto";
+    font-weight: bold;
     font-size:24px;
     color:var(--title-color);
     margin:0px;
