@@ -44,7 +44,7 @@ const Home: React.FC<IHomeProps> = ({ }) => {
                     require("../../assets/images/products/casual.png")
                 ]}
                 productTitles={["Casual", "Casual 2"]}
-                categorie={"Sports"}></Products>
+                categorie={"Casual"}></Products>
             <TabBottomMenu></TabBottomMenu>
         </div>
     );

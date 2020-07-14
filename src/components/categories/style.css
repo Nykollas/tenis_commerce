@@ -48,7 +48,7 @@
     box-shadow: 1px 1px 10px #cccccc;
     margin-bottom:12px; 
     transition: height 0.3s, width 0.3s;
-    background-color: var(--primary-color);
+    background-color: var(--blue);
 }
 .category__icon{
     object-fit: contain;

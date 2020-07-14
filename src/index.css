@@ -76,10 +76,11 @@ code {
   --category-label:#000;
   --font-color:#000000AA;
   --title-color:#161616;
-  --primary-color:#64ECC7;
+  --primary-color:#3dd3ab;
   --secondary-color:#FF8282;
+  --blue:#4ea5f7;
   --bg-primary:#F0F0F0;
-  --green-gradient:linear-gradient(-65deg,#64ECC7,#79E5C9);
+  --green-gradient:linear-gradient(-65deg,#45cea9,#3dd3ab);
   --purple-gradient:linear-gradient(-65deg,#985AFF,#853CFF);
   --red-gradient:linear-gradient(-65deg,#FF8282,#FE6563);
   --blue-gradient:linear-gradient(-65deg, #64ABEC, #3BA1FE);

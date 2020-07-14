@@ -15,10 +15,6 @@ export interface IScrollingState {
     clicked:boolean
 }
 
-
-
-
-
 const Categories: React.FC<ICategoriesProps> = ({ categoriesData }) => {
 
     const initialState = {
